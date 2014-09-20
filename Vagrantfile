@@ -30,6 +30,8 @@ Vagrant.configure('2') do |config|
     end
   end
 
+  config.vm.network :forwarded_port, guest: 3000, host: 3000
+
   config.vm.provision 'shell' do |s|
     s.path = 'puphpet/shell/initial-setup.sh'
     s.args = '/vagrant/puphpet'
