@@ -1,8 +1,8 @@
-## Vagrant + Phuppet + Digital Ocean
+## Vagrant + PuPHPet + Digital Ocean
 
-This is a Vagrantfile / phuppet build for an Ubuntu 14.04 x86-64 Server.
+This is a Vagrantfile / PuPHPet build for an Ubuntu 14.04 x86-64 Server.
 
-It is designed to use Digital Ocean as its provider, and phuppet as its provisioner.
+It is designed to use Digital Ocean as its provider, and PuPHPet as its provisioner.
 
 This box contains the following packages:
 
