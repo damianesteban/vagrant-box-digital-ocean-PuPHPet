@@ -1,7 +1,7 @@
 class pyenv(
   $ensure_repo           = 'present',
   $repo_location         = '/usr/local/pyenv',
-  $repo_revision         = 'v0.4.0-20140404',
+  $repo_revision         = 'v20160509',
   $symlink_pyenv         = true,
   $symlink_path          = '/usr/local/bin',
   $manage_packages       = true,
